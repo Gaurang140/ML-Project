@@ -1,4 +1,4 @@
-import sys
+import sys   # 
 from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
@@ -18,3 +18,12 @@ class CustomException(Exception):
     
     def __str__(self):
         return self.error_message
+    
+def test_custom_exception():
+    try:
+        x = 1 / 0
+    except Exception as e:
+        # Create a CustomException object with the error message and detail
+        ce = CustomException(str(e), sys.exc_info()[2])
+        # Print out the string representation of the CustomException object
+        print(str(ce))
