@@ -26,7 +26,7 @@ Clone the project
 Create an environment
 
 ```bash
-  conda create -n celebrity python=3.8 -y
+  conda create -n student python=3.8 -y
 ```
 
 Install dependencies
