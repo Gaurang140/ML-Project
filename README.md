@@ -11,6 +11,10 @@
 
 
 
+## Demo
+'files\ezgif.com-video-to-gif (1).gif'
+
+
 ## Run Locally
 
 Clone the project
