@@ -12,7 +12,7 @@
 
 
 ## Demo
-'files\ezgif.com-video-to-gif (1).gif'
+https://github.com/Gaurang140/Student-Perfomance-ML-Project/blob/main/files/ezgif.com-video-to-gif%20(1).gif
 
 
 ## Run Locally
